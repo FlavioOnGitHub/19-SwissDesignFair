@@ -16,7 +16,7 @@ img {
 
 /* start of the nav section/header */
 nav {
-  padding: 21px 24px 10px;
+  padding: 24px 24px 10px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -30,23 +30,24 @@ nav {
 
 h1 {
   width: 193px;
-  margin-bottom: 25px;
+  margin-bottom: 18px;
   margin-top: 0;
 }
 
 .nav-icon-container img {
-  width: 20px;
+  width: 26px;
 }
 
 .nav-icon-container img:first-of-type {
   margin-right: 15px; 
+  width: 22px;
 }
 
 .nav-icon-container {
   display: flex;
 }
 
-nav p {
+nav a {
   margin-top: 0;
   margin-bottom: 10px;
   margin-right: 20px;
@@ -55,6 +56,11 @@ nav p {
   font-weight: 400;
   font-style: normal;
   color: #646464;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline #ffab74;
 }
 
 .header-img {
@@ -119,5 +125,55 @@ main p {
 
 .info-section p {
   color: #454545;
+  margin-bottom: 0;
 }
 /* end of the main section */
+
+/* start of the footer */
+footer {
+  background-color: #ffab74;
+  padding: 38px 110px 20px;
+}
+
+.social-icon-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  column-gap: 28px;
+  margin-bottom: 30px;
+}
+
+footer img {
+  width: 30px;
+}
+
+footer img:hover {
+  scale: 1.1;
+  transition: 2s;
+}
+
+footer img:nth-of-type(1) {
+  margin-bottom: 8px;
+}
+
+footer img:nth-of-type(2) {
+  margin-bottom: 8px;
+}
+
+footer img:nth-of-type(3) {
+  margin-bottom: 8px;
+}
+
+footer p {
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  color: #323232;
+}
+
+footer span {
+  font-family: "nunito", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
