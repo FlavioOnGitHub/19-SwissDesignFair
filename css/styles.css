@@ -6,6 +6,7 @@ body {
   max-width: 375px;
   margin: auto;
   background: #ffffff;
+  font-family: "acumin-pro", sans-serif;
 }
 
 img {
@@ -13,12 +14,13 @@ img {
   max-width: 100%;
 }
 
+/* start of the nav section/header */
 nav {
   padding: 21px 24px 10px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .nav-sections-container {
@@ -26,8 +28,10 @@ nav {
   flex-flow: row wrap;
 }
 
-nav img {
+h1 {
   width: 193px;
+  margin-bottom: 25px;
+  margin-top: 0;
 }
 
 .nav-icon-container img {
@@ -52,4 +56,68 @@ nav p {
   font-style: normal;
   color: #646464;
 }
-/*end of the nav section/header*/
+
+.header-img {
+  box-sizing: border-box;
+  border-top: 7px #ffab74 solid;
+  border-bottom: 7px #ffab74 solid;
+}
+/* end of the nav section/header */
+
+/* start of the main section */
+main {
+  padding: 52px 40px 54px;
+}
+
+h2,
+h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+main p {
+  margin-bottom: 60px;
+  margin-top: 0;
+  color: #646464;
+}
+
+.personality-section p {
+  margin-bottom: 5px;
+}
+
+.personality-section ul {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #454545;
+  list-style: none;
+  padding: 0;
+}
+
+.personality-section img {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.info-section {
+  text-align: center;
+}
+
+.exposition-section p {
+  margin-bottom: 30px;
+}
+
+.exposition-section img {
+  margin-bottom: 55px;
+}
+
+.info-section p {
+  color: #454545;
+}
+/* end of the main section */
