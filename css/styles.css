@@ -62,6 +62,7 @@ nav a {
 
 nav a:hover {
   text-decoration: underline #ffab74;
+  scale: 1.01;
 }
 
 .header-img {
@@ -95,13 +96,45 @@ main p {
   color: #646464;
 }
 
+.product-section p {
+  margin-bottom: 25px;
+}
+
+.product-section ul {
+  margin-top: 0;
+  margin-bottom: 60px;
+  list-style: none;
+  padding-left: 0;
+  color: #454545;
+}
+
+.product-section img {
+  border-top: 4px #ffab74 solid;
+  border-bottom: 4px #ffab74 solid;
+  height: 142px;
+}
+
+.product-section img:first-of-type {
+  border-right: 4px #ffab74 solid;
+}
+
+.product-img-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 25px;
+}
+
 .personality-section p {
-  margin-bottom: 5px;
+  margin-bottom: 6px; 
+}
+
+.personality-section p:first-of-type {
+  margin-bottom: 25px;
 }
 
 .personality-section ul {
   margin-top: 0;
-  margin-bottom: 25px;
+  margin-bottom: 60px;
   color: #454545;
   list-style: none;
   padding: 0;
@@ -109,7 +142,9 @@ main p {
 
 .personality-section img {
   width: 100%;
-  margin-bottom: 60px;
+  margin-bottom: 25px;
+  border-top: 4px #ffab74 solid;
+  border-bottom: 4px #ffab74 solid;
 }
 
 .info-section {
@@ -122,6 +157,7 @@ main p {
 
 .exposition-section img {
   margin-bottom: 55px;
+  filter: drop-shadow( 0px 0px 2.5px rgba(0, 0, 0, 0.8));
 }
 
 .info-section p {
